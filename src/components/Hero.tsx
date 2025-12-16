@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const tags = ["full-stack systems", "API & database design", "cloud & deployment", "developer tools"];
+const tags = ["full-stack systems", "API & database design", "developer tools"];
 
 
 export default function Hero() {
