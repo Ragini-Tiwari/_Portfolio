@@ -1,0 +1,65 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Visitor {
+  id              String   @id @default(cuid())
+  createdAt       DateTime @default(now())
+  
+  // Device Information
+  userAgent       String?
+  browser         String?
+  browserVersion  String?
+  device          String?  // desktop, mobile, tablet
+  deviceModel     String?
+  deviceVendor    String?
+  
+  // Operating System
+  os              String?
+  osVersion       String?
+  
+  // Screen Information
+  screenWidth     Int?
+  screenHeight    Int?
+  viewportWidth   Int?
+  viewportHeight  Int?
+  colorDepth      Int?
+  pixelRatio      Float?
+  
+  // Network & Location
+  ipAddress       String?
+  city            String?
+  region          String?
+  country         String?
+  countryCode     String?
+  timezone        String?
+  isp             String?
+  latitude        Float?
+  longitude       Float?
+  
+  // Page & Session
+  pageVisited     String?
+  referrer        String?
+  language        String?
+  languages       String?
+  
+  // Additional Details
+  platform        String?
+  cookiesEnabled  Boolean?
+  doNotTrack      Boolean?
+  online          Boolean?
+  touchPoints     Int?
+  connection      String?  // connection type (4g, wifi, etc.)
+  
+  @@index([createdAt])
+  @@index([country])
+  @@index([pageVisited])
+}
