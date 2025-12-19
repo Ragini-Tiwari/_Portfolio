@@ -39,7 +39,7 @@ const socials = [
     {
         name: "LinkedIn",
 
-        href: "www.linkedin.com/in/ragini-tiwari",
+        href: "https://www.linkedin.com/in/ragini-tiwari",
 
         icon: (
             <svg
