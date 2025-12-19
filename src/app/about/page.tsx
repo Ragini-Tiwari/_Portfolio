@@ -95,7 +95,7 @@ export default async function About() {
 
           {/* Tech Stack */}
           <section className="space-y-4">
-            <h2 className="text-xl font-semibold text-white">technologies i work with</h2>
+            <h2 className="text-xl font-semibold text-white">technologies</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               <div className="p-4 bg-zinc-800/50 rounded-lg border border-zinc-700/50">
                 <h3 className="text-white font-medium mb-2">languages</h3>

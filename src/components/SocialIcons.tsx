@@ -4,7 +4,7 @@ const socials = [
     {
         name: "GitHub",
 
-        href: "https://github.com/govindti/",
+        href: "https://github.com/Ragini-Tiwari",
 
       
         icon: (
@@ -55,7 +55,7 @@ const socials = [
     },
     {
         name: "Devto",
-        href: "https://dev.to/govind_tiwari/",
+        href: "https://dev.to/_tiwari/",
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"
