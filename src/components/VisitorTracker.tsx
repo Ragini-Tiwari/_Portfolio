@@ -51,3 +51,7 @@ function getDeviceType(): string {
     }
     return "desktop";
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50

@@ -15,6 +15,7 @@ async function getVisitorCount() {
     }
 }
 
+<<<<<<< HEAD
 const icons: Record<string, React.ReactNode> = {
     clock: (
         <svg
@@ -76,6 +77,14 @@ interface Post {
     readTime: string;
     tags: string[];
     
+=======
+interface Post {
+    title: string;
+    date: string;
+    description: string;
+    url: string;
+    tags: string[];
+>>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
 }
 
 export default async function Blog() {
@@ -98,13 +107,18 @@ export default async function Blog() {
                     {posts.map((post) => (
                         <article
                             key={post.url}
+<<<<<<< HEAD
                             className="border-l-2 border-[#333] pl-4 hover:border-[#f5d0c5] transition-colors"
+=======
+                            className="border-b border-gray-800 pb-8 last:border-0"
+>>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
                         >
                             <Link href={`${post.url}`} className="group">
                                 <h2 className="text-lg sm:text-xl font-semibold text-white group-hover:text-[#c9a0a0] transition-colors">
                                     {post.title}
                                 </h2>
                             </Link>
+<<<<<<< HEAD
 
                             <div className="flex items-center gap-4 text-xs text-[#666] mb-3">
                                 <span className="flex items-center gap-1">
@@ -147,13 +161,33 @@ export default async function Blog() {
                                         {icons.arrowRight}
                                     </span>
                                 </Link>
+=======
+                            <p className="text-sm text-gray-500 mt-1">{post.date}</p>
+                            <p className="mt-3 text-sm sm:text-base">{post.description}</p>
+                            <div className="flex flex-wrap gap-2 mt-3">
+                                {post.tags.map((tag) => (
+                                    <span
+                                        key={tag}
+                                        className="text-xs px-2 py-1 bg-gray-800 rounded"
+                                    >
+                                        {tag}
+                                    </span>
+                                ))}
+>>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
                             </div>
                         </article>
                     ))}
                 </div>
+<<<<<<< HEAD
             </main >
 
             <Footer visitorCount={visitorCount} />
         </div >
+=======
+            </main>
+
+            <Footer visitorCount={visitorCount} />
+        </div>
+>>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
     );
 }

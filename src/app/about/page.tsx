@@ -1,7 +1,10 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+<<<<<<< HEAD
 import techStackData from "@/data/techStack.json";
 import experiencesData from "@/data/experience.json"
+=======
+>>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
 import { prisma } from "@/lib/prisma";
 
 export const revalidate = 60;
@@ -15,6 +18,7 @@ async function getVisitorCount() {
     }
 }
 
+<<<<<<< HEAD
 const icons: Record<string, React.ReactNode> = {
     terminal: (
         <svg
@@ -118,6 +122,8 @@ const icons: Record<string, React.ReactNode> = {
 };
 
 
+=======
+>>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
 export default async function About() {
     const visitorCount = await getVisitorCount();
 
@@ -132,15 +138,25 @@ export default async function About() {
                 </h1>
 
                 <div className="space-y-6 leading-relaxed text-sm sm:text-base">
+<<<<<<< HEAD
                      <p>
+=======
+                    <p>
+>>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
                         i&apos;m a builder at heart.
                          I believe that hands-on creation is the fastest path to understanding and mastery.
                     </p>
 
+<<<<<<< HEAD
 
                     <p>
                         my journey started with curiosity about how things work under the
                         hood. that curiosity led me to explore{" "}
+=======
+                    <p>
+                        It all started with a fascination for what happens behind the scenes. That
+                         spark of curiosity led me to explore{" "}
+>>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
                         <span className="highlight">scalable systems</span>,{" "}
                         <span className="highlight">distributed systems</span>, and{" "}
                         <span className="highlight">systems programming</span>.
@@ -149,13 +165,42 @@ export default async function About() {
                     <h2 className="text-lg sm:text-xl font-semibold text-white mt-8 sm:mt-10 mb-4">
                         what i do
                     </h2>
+<<<<<<< HEAD
                    <ul className="list-disc list-inside space-y-2">
+=======
+                    <ul className="list-disc list-inside space-y-2">
+>>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
                         <li>building end-to-end web applications using modern frameworks</li>
                         <li>designing scalable relational and non-relational database schemas</li>
                         <li>implementing secure authentication and authorization flows</li>
                         <li>optimizing application performance and seo</li>
                     </ul>
 
+<<<<<<< HEAD
+=======
+            
+                    
+
+                    {/* Tech Stack */}
+                <section className="space-y-4">
+                    <h2 className="text-xl font-semibold text-white">technologies i work with</h2>
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        <div className="p-4 bg-zinc-800/50 rounded-lg border border-zinc-700/50">
+                            <h3 className="text-white font-medium mb-2">languages</h3>
+                            <p className="text-sm">TypeScript, JavaScript, Java, Python</p>
+                        </div>
+                        <div className="p-4 bg-zinc-800/50 rounded-lg border border-zinc-700/50">
+                            <h3 className="text-white font-medium mb-2">frameworks</h3>
+                            <p className="text-sm">Next.js, React, Node.js, Express</p>
+                        </div>
+                        <div className="p-4 bg-zinc-800/50 rounded-lg border border-zinc-700/50">
+                            <h3 className="text-white font-medium mb-2">databases & tools</h3>
+                            <p className="text-sm">PostgreSQL, MongoDB, Docker, Git</p>
+                        </div>
+                    </div>
+                </section>
+
+>>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
                 {/* Philosophy */}
                 <section className="space-y-4">
                     <h2 className="text-xl font-semibold text-white">my philosophy</h2>
@@ -170,6 +215,7 @@ export default async function About() {
                     </p>
                 </section>
 
+<<<<<<< HEAD
 
                     <section className="mb-12">
                         <h2 className="text-xl text-[#e8e8e8] mb-6">technologies i use</h2>
@@ -193,6 +239,8 @@ export default async function About() {
                     </section>
 
                    
+=======
+>>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
                     <h2 className="text-lg sm:text-xl font-semibold text-white mt-8 sm:mt-10 mb-4">
                         get in touch
                     </h2>
