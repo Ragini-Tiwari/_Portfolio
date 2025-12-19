@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Ragini Tiwari Portfolio",
     images: [
       {
-        url: "https://www.raginiiwari.site/overview.png",
+        url: "https://about-ragini.vercel.app/",
         width: 1200,
         height: 630,
         alt: "Ragini Tiwari - Full Stack Developer",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     creator: "@Gunnu_tiwari_",
     images: [
       {
-        url: "https://www.raginitiwari.site/overview.png",
+        url: "https://about-ragini.vercel.app/",
         alt: "Ragini Tiwari - Full Stack Developer",
       },
     ],
