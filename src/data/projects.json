@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "name": "Tiny DB",
+      "description": "A minimal key-value database built from scratch.",
+      "longDescription": "Supports CRUD operations, persistence, and a simple query language.",
+      "tech": ["go", "database", "storage"],
+      "github": "https://github.com/yourusername/tiny-db",
+      "live": null,
+      "featured": true,
+      "status": "completed"
+    },
+    {
+      "name": "Rate Limiter",
+      "description": "Implementation of common rate limiting algorithms.",
+      "longDescription": "Includes token bucket, sliding window, and leaky bucket with Redis backend.",
+      "tech": ["redis", "system design"],
+      "github": "https://github.com/yourusername/rate-limiter",
+      "live": null,
+      "featured": true,
+      "status": "completed"
+    },
+    {
+      "name": "Monkey Interpreter",
+      "description": "Tree-walking interpreter for Monkey language.",
+      "longDescription": "Includes lexer, parser, evaluator, and REPL.",
+      "tech": ["interpreter", "compiler"],
+      "github": "https://github.com/yourusername/monkey-interpreter",
+      "live": null,
+      "featured": true,
+      "status": "completed"
+    },
+    {
+      "name": "Distributed Cache",
+      "description": "Distributed caching system using consistent hashing.",
+      "longDescription": "Supports replication and basic fault tolerance.",
+      "tech": ["distributed systems", "cache"],
+      "github": "https://github.com/yourusername/distributed-cache",
+      "live": null,
+      "featured": false,
+      "status": "in-progress"
+    },
+    {
+      "name": "Load Balancer",
+      "description": "HTTP load balancer with multiple strategies.",
+      "longDescription": "Round-robin, least-connections, weighted balancing.",
+      "tech": ["networking", "backend"],
+      "github": "https://github.com/yourusername/load-balancer",
+      "live": null,
+      "featured": false,
+      "status": "completed"
+    },
+    {
+      "name": "Task Queue",
+      "description": "Reliable task queue with retries and DLQ.",
+      "longDescription": "Workers, retries, delayed jobs, and dead-letter queues.",
+      "tech": ["redis", "queues"],
+      "github": "https://github.com/yourusername/task-queue",
+      "live": null,
+      "featured": false,
+      "status": "archived"
+    }
+  ]
+}

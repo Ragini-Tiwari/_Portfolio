@@ -1,0 +1,43 @@
+{
+    "categories": [
+        {
+            "name": "languages",
+            "icon": "terminal",
+            "technologies": [
+                "javascript",
+                "python",
+                "typescript"
+            ]
+        },
+        {
+            "name": "databases",
+            "icon": "database",
+            "technologies": [
+                "postgresql",
+               "mysql",
+                "mongodb"
+                
+            ]
+        },
+        {
+            "name": "infrastructure",
+            "icon": "server",
+            "technologies": [
+               
+                "docker",
+                "aws"
+            ]
+        },
+        {
+            "name": "messaging",
+            "icon": "message",
+            "technologies": [
+                "kafka",
+               
+                "grpc"
+            ]
+        }
+      
+       
+    ]
+}
