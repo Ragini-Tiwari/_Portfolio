@@ -1,11 +1,6 @@
 import Link from "next/link";
 
-<<<<<<< HEAD
 const tags = ["next JS", "full stack", "distributed systems", "developer tools"];
-=======
-const tags = ["full-stack systems", "API & database design", "developer tools"];
-
->>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
 
 export default function Hero() {
     return (
@@ -27,11 +22,7 @@ export default function Hero() {
             </div>
 
             {/* Description */}
-<<<<<<< HEAD
-           <div className="space-y-6 leading-relaxed">
-=======
             <div className="space-y-6 leading-relaxed">
->>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
                 <p>
                     I break problems down to their roots, tinker relentlessly, and let coffee
                      fuel the aha moments.
@@ -49,10 +40,6 @@ export default function Hero() {
                     <span className="accent">currently:</span> exploring distributed
                     systems, concurrency patterns, system fundamentals.
                 </p>
-<<<<<<< HEAD
-              
-=======
->>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
                 <p>
                     you can find my finished projects{" "}
                     <Link href="/projects" className="highlight underline">

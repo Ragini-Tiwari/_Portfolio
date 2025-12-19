@@ -10,13 +10,10 @@ export default function Footer({ visitorCount }: FooterProps) {
     <footer className="fixed bottom-0 left-0 right-0 flex justify-between items-center px-6 py-4">
       <div className="text-xs text-gray-500">
         <Link
-<<<<<<< HEAD
+
           href="https://x.com/Gunnu_Tiwari_"
-=======
-          href="https://x.com/Gunnu_tiwari_"
->>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
-          className="highlight underline"
-        >
+ 
+          className="highlight underline">
           find me here
         </Link>
       </div>

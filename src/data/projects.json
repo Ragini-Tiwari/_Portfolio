@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "projects": [
     {
       "name": "Tiny DB",
@@ -63,80 +62,3 @@
     }
   ]
 }
-=======
-    "projects": [
-        {
-            "title": "Tiny DB",
-            "description": "A minimal key-value database built from scratch. Supports basic CRUD operations, persistence, and a simple query language.",
-            "tags": [
-                "go",
-                "database",
-                "storage"
-            ],
-            "github": "https://github.com/yourusername/tiny-db",
-            "demo": null,
-            "featured": true
-        },
-        {
-            "title": "Rate Limiter",
-            "description": "Implementation of various rate limiting algorithms including token bucket, sliding window, and leaky bucket with Redis backend.",
-            "tags": [
-                "go",
-                "redis",
-                "system design"
-            ],
-            "github": "https://github.com/yourusername/rate-limiter",
-            "demo": null,
-            "featured": true
-        },
-        {
-            "title": "Monkey Interpreter",
-            "description": "A tree-walking interpreter for the Monkey programming language. Includes lexer, parser, and evaluator.",
-            "tags": [
-                "go",
-                "interpreter",
-                "compiler"
-            ],
-            "github": "https://github.com/yourusername/monkey-interpreter",
-            "demo": null,
-            "featured": true
-        },
-        {
-            "title": "Distributed Cache",
-            "description": "A distributed caching system with consistent hashing, replication, and basic fault tolerance.",
-            "tags": [
-                "go",
-                "distributed systems",
-                "cache"
-            ],
-            "github": "https://github.com/yourusername/distributed-cache",
-            "demo": null,
-            "featured": false
-        },
-        {
-            "title": "Load Balancer",
-            "description": "HTTP load balancer with multiple strategies: round-robin, least connections, and weighted distribution.",
-            "tags": [
-                "go",
-                "networking",
-                "backend"
-            ],
-            "github": "https://github.com/yourusername/load-balancer",
-            "demo": null,
-            "featured": false
-        },
-        {
-            "title": "Task Queue",
-            "description": "A simple but reliable task queue with workers, retries, and dead letter handling.",
-            "tags": [
-                "go",
-                "redis",
-                "queues"
-            ],
-            "github": "https://github.com/yourusername/task-queue",
-            "demo": null,
-            "featured": false
-        }
-    ]
-}
->>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50

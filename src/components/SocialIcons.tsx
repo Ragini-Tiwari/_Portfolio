@@ -3,11 +3,10 @@ import Link from "next/link";
 const socials = [
     {
         name: "GitHub",
-<<<<<<< HEAD
+
         href: "https://github.com/govindti/",
-=======
-        href: "https://github.com/Ragini-Tiwari/",
->>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
+
+      
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -22,11 +21,9 @@ const socials = [
     },
     {
         name: "X (Twitter)",
-<<<<<<< HEAD
-        href: "https://x.com/Govind_tiwari_",
-=======
-        href: "https://x.com/Gunnu_tiwari_/",
->>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
+
+        href: "https://x.com/Gunnu_tiwari_",
+
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,11 +38,9 @@ const socials = [
     },
     {
         name: "LinkedIn",
-<<<<<<< HEAD
-        href: "https://www.linkedin.com/in/govindtiwri/",
-=======
-        href: "www.linkedin.com/in/ragini-tiwari/",
->>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
+
+        href: "www.linkedin.com/in/ragini-tiwari",
+
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -75,11 +70,9 @@ const socials = [
     },
     {
         name: "Email",
-<<<<<<< HEAD
-        href: "mailto:108tiwari.g@gmail.com",
-=======
+
         href: "mailto:gunnutiwari5s@gmail.com",
->>>>>>> 2859fe1f6a2d621751812153f088c79222fa3c50
+
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"
