@@ -126,8 +126,8 @@ export default async function About() {
             </p>
           </section>
 
-          {/* Tech Stack Categories */}
-          <section className="mb-12">
+          {/* Tech Stack Categories 
+         <section className="mb-12">
             <h2 className="text-xl text-[#e8e8e8] mb-6">technologies i use</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {techStackData.categories.map((category) => (
@@ -146,7 +146,7 @@ export default async function About() {
                 </div>
               ))}
             </div>
-          </section>
+          </section>*/}
 
           <h2 className="text-lg sm:text-xl font-semibold text-white mt-8 sm:mt-10 mb-4">
             get in touch
