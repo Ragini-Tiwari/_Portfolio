@@ -1,0 +1,105 @@
+{
+    "projects": [
+       {
+    "name": "OpportuneX",
+    "description": "A full-stack job portal for discovering job opportunities, searching and filtering listings, and managing applications through a responsive web interface.",
+    "tech": [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "REST APIs"
+    ],
+    "github": "https://github.com/Ragini-Tiwari/OpportuneX",
+    "live": null,
+    "featured": true,
+    "status": "completed",
+    "author": "Ragini Tiwari"
+    },
+       {
+    "name": "AIspire",
+    "description": "An AI-powered developer collaboration platform that brings together project showcasing, technical blogging, developer collaboration, and productivity features in one modern web application.",
+    "tech": [
+    "Next.js",
+    "React.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "shadcn/ui"
+    ],
+    "github": "https://github.com/Ragini-Tiwari/AIspire.io",
+    "live": "https://a-ispire-io.vercel.app/",
+    "featured": true,
+    "status": "completed",
+    "author": "Ragini Tiwari"
+    },
+
+        {
+"name": "Edufynx",
+"description": "An education-focused web platform designed to help students explore courses, admission opportunities, and educational resources through a responsive and user-friendly interface.",
+"tech": [
+"PHP",
+"MySQL",
+"HTML",
+"CSS",
+"JavaScript"
+],
+"github": "https://github.com/Ragini-Tiwari/Edufynx",
+"live": "https://www.edufynx.com/",
+"featured": false,
+"status": "completed",
+"author": "Ragini Tiwari"
+},
+
+{
+"name": "StackForge",
+"description": "A software project currently in development, focused on building practical developer-focused functionality while exploring modern application architecture and engineering workflows.",
+"tech": [
+"In Development"
+],
+"github": "https://github.com/Ragini-Tiwari/StackForge",
+"live": null,
+"featured": false,
+"status": "in-progress",
+"author": "Ragini Tiwari"
+},
+{
+"name": "Instagram Fake Profile Detector",
+"description": "A Flask-based machine learning application that analyzes Instagram profile images and uses the K-Nearest Neighbors (KNN) algorithm to classify profiles as real or potentially fake, with confidence scores and a simple web interface.",
+"tech": [
+"Python",
+"Flask",
+"Machine Learning",
+"KNN",
+"HTML"
+],
+"github": "https://github.com/Ragini-Tiwari/Instagramfakeprofiledetector",
+"live": null,
+"featured": false,
+"status": "in-progress",
+"author": "Ragini Tiwari"
+},
+{
+"name": "Language & Sentiment Analyzer",
+"description": "A full-stack NLP application that detects language, analyzes sentiment, and identifies toxic content from user-provided text. Includes confidence scores, interactive visualizations, and an AI assistant interface.",
+"tech": [
+"Python",
+"FastAPI",
+"React",
+"Tailwind CSS",
+"NLP",
+"TypeScript"
+],
+"github": "https://github.com/Ragini-Tiwari/language-detection",
+"live": null,
+"featured": false,
+"status": "in-progress",
+"author": "Ragini Tiwari"
+}
+
+
+
+
+
+      
+    ]
+}

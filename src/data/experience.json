@@ -1,0 +1,18 @@
+{
+  "experiences": [
+   
+    {
+      "period": "Dec 2025- Present",
+      "role": " Full Stack Developer",
+      "company": "Xietus Lab",
+      "description": "Developing and maintaining scalable software applications using Java, backend technologies, REST APIs, and databases. Responsible for building application features, integrating APIs, troubleshooting and debugging issues, optimizing performance, and contributing to reliable and efficient software solutions."
+    },
+     {
+      "period": "Dec 2024 – Oct 2025",
+      "role": "Fullstack Developer",
+      "company": "Shurt Technology",
+      "description": "Worked on Java-based applications, backend development, database integration, debugging, and API development. Contributed to building and maintaining reliable web solutions and improving application performance."
+    }
+    
+  ]
+}

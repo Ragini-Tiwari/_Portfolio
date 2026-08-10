@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "title": "Most People “Learning AI” Are Just Cosplaying Productivity",
+      "date": "2025-02-18",
+      "readTime": "12 min",
+      "description": "The AI hype has created a new kind of productivity theater—people collecting courses, tools, prompts, and certificates without actually building anything. This article explores the difference between genuinely learning AI and simply consuming AI content, and why real projects, experimentation, and problem-solving matter more than endlessly preparing to start.",
+      "url": "https://medium.com/@the-nullnarrator/most-people-learning-ai-are-just-cosplaying-productivity-7380fa187f46",
+     "tags": ["AI", "Machine Learning", "Developer Productivity", "Learning", "Software Engineering"]
+    },
+    {
+      "title": "What I Learned After Working With Databases — As a (JS/TS) Backend Developer",
+      "date": "2026-08-10",
+      "readTime": "10 min",
+      "description": "A beginner-friendly look at the lessons I’ve learned while working with databases in real projects—from designing relationships and writing queries to debugging, validation, performance, and understanding SQL vs. NoSQL.",
+      "url": "https://the-nullnarrator.medium.com/what-i-learned-after-working-with-databases-2b7f5aa63105?postPublishedType=initial",
+     "tags": ["Databases", "Backend","SQL", "NoSQL", "Learning"]
+    }
+  ]
+}

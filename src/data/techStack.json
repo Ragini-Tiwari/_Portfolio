@@ -1,0 +1,61 @@
+{
+    "categories": [
+        {
+            "name": "languages",
+            "icon": "terminal",
+            "technologies": [
+                "javascript",
+                "python",
+                "typescript"
+            ]
+        },
+        {
+            "name": "databases",
+            "icon": "database",
+            "technologies": [
+                "postgresql",
+                "redis",
+                "mongodb",
+                "cockroachdb"
+            ]
+        },
+        {
+            "name": "infrastructure",
+            "icon": "server",
+            "technologies": [
+                "kubernetes",
+                "docker",
+                "aws"
+            ]
+        },
+        {
+            "name": "messaging",
+            "icon": "message",
+            "technologies": [
+                "kafka",
+                "rabbitmq",
+                "grpc"
+            ]
+        },
+        {
+            "name": "observability",
+            "icon": "settings",
+            "technologies": [
+                "prometheus",
+                "grafana",
+                "jaeger",
+                "datadog"
+            ]
+        },
+        {
+            "name": "tools",
+            "icon": "code",
+            "technologies": [
+                "git",
+                "linux",
+                "vim",
+                "tmux"
+            ]
+        }
+    ]
+}

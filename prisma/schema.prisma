@@ -1,0 +1,22 @@
+// Prisma schema for visitor analytics
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Visitor {
+  id           String   @id @default(cuid())
+  ip           String
+  country      String?
+  city         String?
+  device       String?
+  screenWidth  Int?
+  screenHeight Int?
+  userAgent    String?
+  createdAt    DateTime @default(now())
+}
