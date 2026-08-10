@@ -11,7 +11,7 @@
     {
       "title": "What I Learned After Working With Databases — As a (JS/TS) Backend Developer",
       "date": "2026-08-10",
-      "readTime": "10 min",
+      "readTime": "12 min",
       "description": "A beginner-friendly look at the lessons I’ve learned while working with databases in real projects—from designing relationships and writing queries to debugging, validation, performance, and understanding SQL vs. NoSQL.",
       "url": "https://the-nullnarrator.medium.com/what-i-learned-after-working-with-databases-2b7f5aa63105?postPublishedType=initial",
      "tags": ["Databases", "Backend","SQL", "NoSQL", "Learning"]
